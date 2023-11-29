@@ -5,7 +5,6 @@ This project implements a RESTful API for managing and retrieving location-based
 Setup
 
     Install Dependencies:
-
 npm install
 
 Set Up Environment:
