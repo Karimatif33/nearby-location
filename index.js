@@ -95,7 +95,7 @@ app.get("/nearbyLocations", async (req, res) => {
     if (!userLocation) {
       return res.status(404).json({ error: "Location not found." });
     }
-
+const near = "Near "
     const nearbyLocations = await Location.find({
       _id: { $ne: userLocation._id },
       loc: {
@@ -108,8 +108,8 @@ app.get("/nearbyLocations", async (req, res) => {
         },
       },
     });
-
-    res.json({ location: userLocation.name, nearbyLocations });
+console.log(nearbyLocations,  near + userLocation.name)
+    res.json({ location: near + userLocation.name,  userLocation, nearbyLocations });
   } catch (error) {
     console.error("Error occurred:", error);
     res.status(500).json({ error: "Internal Server Error" });
@@ -157,5 +157,5 @@ app.get("/location/:id", async (req, res) => {
 
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });

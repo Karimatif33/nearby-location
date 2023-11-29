@@ -4,3 +4,14 @@ GET:
 http://localhost:3000/nearbyLocations?lat=4.6888&lon=-74.0445
 http://localhost:3000/all-locations
 http://localhost:3000/locations-by-category?category=Test Category
+http://localhost:3000/location/id
+
+
+
+Post:
+https://nearby-location.onrender.com/location
+GET:
+https://nearby-location.onrender.com/nearbyLocations?lat=4.6888&lon=-74.0445
+https://nearby-location.onrender.com/all-locations
+https://nearby-location.onrender.com/locations-by-category?category=Test Category
+https://nearby-location.onrender.com/location/id
