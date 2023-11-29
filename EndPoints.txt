@@ -1,0 +1,6 @@
+Post:
+http://localhost:3000/location
+GET:
+http://localhost:3000/nearbyLocations?lat=4.6888&lon=-74.0445
+http://localhost:3000/all-locations
+http://localhost:3000/locations-by-category?category=Test Category
