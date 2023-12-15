@@ -14,13 +14,10 @@ Ensure you have MongoDB installed and running.
 
 Run the Server:
 
-
-
-    
     "start": "node index.js" --- npm start
     "dev": "nodemon server.js" --- npm run dev
-      
-  
+
+
 
     The server will start on http://localhost:3000 by default.
 
@@ -81,8 +78,8 @@ Contributors
 
     Karim Atif
 
+---
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-to test online use " https://nearby-location.onrender.com " insted of  http://localhost:3000 
-example 
+to test online use " https://nearby-location.onrender.com " insted of http://localhost:3000
+example
 https://nearby-location.onrender.com/all-locations
