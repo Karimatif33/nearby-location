@@ -5,8 +5,7 @@ This project implements a RESTful API for managing and retrieving location-based
 Setup
 
     Install Dependencies:
-
-npm install
+    npm install
 
 Set Up Environment:
 
@@ -28,9 +27,9 @@ Create or Update Location
 
     Create or update a location with details like name, latitude, longitude, and category.
 
-    Example Request Body:
+ Example Request Body:
 
-    json
+ json
 
     {
       "name": "Location Name",
@@ -74,12 +73,19 @@ Usage
     Ensure proper authentication and authorization mechanisms are implemented before deploying this API in a production environment.
     The API provides basic functionalities and can be extended to include user authentication, additional data validation, and error handling enhancements.
 
-Contributors
 
     Karim Atif
 
 ---
 
+<<<<<<< HEAD
 to test online use " https://nearby-location.onrender.com " insted of http://localhost:3000
 example
 https://nearby-location.onrender.com/all-locations
+=======
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+To test online use " https://nearby-location.onrender.com " insted of  http://localhost:3000 
+example 
+
+       https://nearby-location.onrender.com/all-locations
+>>>>>>> bbac1e32cdbdc564ca7d1e6ef0de75568deb4cb7
