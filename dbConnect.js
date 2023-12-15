@@ -3,7 +3,7 @@ const mongoose = require ("mongoose");
 const dbConnect = async () => {
     try {
       await mongoose.connect(
-        "mongodb+srv://karimatif33233:Karim010@cluster0.rgmh6dc.mongodb.net/LocationApp",
+        process.env.MONGO_URL || "",
         {
           retryWrites: true,
           wtimeoutMS: 2500,
